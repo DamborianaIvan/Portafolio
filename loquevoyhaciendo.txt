@@ -1,0 +1,18 @@
+Para realizar mi portafolio:
+
+
+Primero utilizamos npx create-react-app "nombreapp" en el directorio que vos quieras.
+
+Luego instalamos la dependencia, que en este caso utilizamos react-mdl que es una libreria de componentes para react, importamos lo necesario y linkeamos lo necesario que se encuentra en la pagina con su documentacion correspondiendte.
+
+Creamos la carpeta components en la cual se van a encontrar nuestros componentes (partes de la pag)
+
+Instalamos react-router-dom (yarn add react-router-dom) el cual nos va a servir para las rutas de los links
+
+Dentro de la carpeta components, creamos un archivo llamado main.js que nos sirve para redireccionar a el componente indicado en app.js en los links
+
+Utilizamos el grid de router-mdl (ver en documentacion https://tleunen.github.io/react-mdl/components/grid/)
+
+Creamos la landingpage en la cual se encuentra un avatar, informacion sobre mi, etc.
+
+Utilizamos font awesome cdn para los iconos de las redes.

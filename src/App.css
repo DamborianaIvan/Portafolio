@@ -32,6 +32,7 @@
   background-color: black;
   opacity: .8;
   width: 75%;
+  margin: auto;
   border-radius:10px;
  
 }
@@ -60,4 +61,10 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+/*Project seccion*/
+
+.projects-grid{
+  display: flex;
 }

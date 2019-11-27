@@ -16,26 +16,26 @@ class Landing extends Component {
                         <div className="banner-text">
                             <h1>Front end Developer</h1>
 
-                        <hr/>
+                            <hr/>
 
-                        <p>HTML | CSS | BOOTSTRAP | JAVASCRIPT | REACT | PHP | MYSQL | AJAX | API-REST </p>
+                            <p>HTML | CSS | BOOTSTRAP | JAVASCRIPT | REACT | PHP | MYSQL | AJAX | API-REST </p>
 
-                        <div className="social-links">
+                            <div className="social-links">
 
-                            {/*Linkedin */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-                            </a>
-                            {/*Github */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-github-square" aria-hidden="true"></i>
-                            </a>
-                            {/*Facebook */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-facebook-square" aria-hidden="true"></i>
-                            </a>
+                                {/*Linkedin */}
+                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                                </a>
+                                {/*Github */}
+                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-github-square" aria-hidden="true"></i>
+                                </a>
+                                {/*Facebook */}
+                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                                </a>
 
-                        </div>
+                            </div>
                         </div>
                     </Cell>
                 </Grid>

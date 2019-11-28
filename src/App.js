@@ -8,28 +8,26 @@ import { Link } from 'react-router-dom';
 function App() {
   return (
     <div className="demo-big-content">
-    <Layout>
-        <Header className="header-color" title="Title" scroll>
-            <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Header>
-        <Drawer title="Title">
-            <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Drawer>
-        <Content>
-            <div className="page-content" />
-            <Main />
-        </Content>
-    </Layout>
+        <Layout >
+            <Header className="header-color" title={<Link style={{textDecoration:'none', color:'white'}} to="/">Mi portafolio</Link>} >
+                <Navigation>           
+                    <Link to="/projects">Proyectos</Link>
+                    <Link to="/resume">Resumen</Link>
+                    <Link to="/contact">Contacto</Link>
+                </Navigation>
+            </Header>
+            <Drawer title={<Link style={{textDecoration:'none', color:'black'}} to="/">Mi portafolio</Link>}>
+                <Navigation>                
+                    <Link to="/projects">Proyectos</Link>
+                    <Link to="/resume">Resumen</Link>
+                    <Link to="/contact">Contacto</Link>
+                </Navigation>
+            </Drawer>
+            <Content>
+                <div className="page-content" />
+                <Main />
+            </Content>
+        </Layout>
 </div>
   );
 }

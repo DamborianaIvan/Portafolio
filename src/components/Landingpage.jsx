@@ -18,7 +18,7 @@ class Landing extends Component {
 
                             <hr/>
 
-                            <p>HTML | CSS | BOOTSTRAP | JAVASCRIPT | REACT | PHP | MYSQL | AJAX | API-REST </p>
+                            <p>HTML | CSS | BOOTSTRAP | JAVASCRIPT | REACT | PHP | MYSQL | API-REST </p>
 
                             <div className="social-links">
 

@@ -5,15 +5,15 @@ import {Grid, Cell} from 'react-mdl';
 class Landing extends Component {
     render(){
         return(
-            <div style={{width:'100%', margin:'auto'}}>
-                <Grid className="landing-grid">
-                    <Cell col={12}>
+            <div className="container-fluid landing-grid h-100" >
+                
+                    <div className="container text-center">
                         <img
                             src="https://dentalogica-practice.co.uk/wp-content/uploads/2017/05/avatar-male-300x300.png"
                             alt="avatar"
                             className="avatar-img"
                         />
-                        <div className="banner-text">
+                        <div className="container banner-text">
                             <h1>Front end Developer</h1>
 
                             <hr/>
@@ -37,8 +37,8 @@ class Landing extends Component {
 
                             </div>
                         </div>
-                    </Cell>
-                </Grid>
+                    </div>
+               
             </div>
         )
     }

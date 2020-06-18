@@ -1,3 +1,8 @@
+.titulo-banner{
+  font-family: 'Neucha', cursive;
+}
+
+
 
 /**HEADER**/
 .header-color {
@@ -12,18 +17,13 @@
 
 /*LANDING-PAGE*/
 .landing-grid{
-  background: #2c3e50;
+  background-color: #2c3e50;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #3498db, #2c3e50);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #3498db, #2c3e50);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+ 
 }
 .avatar-img{
   height: 250px;
@@ -37,6 +37,7 @@
   border-radius:10px;
  
 }
+
 .banner-text h1{
   font-size:66px;
   font-weight: bold;

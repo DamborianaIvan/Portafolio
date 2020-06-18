@@ -23,8 +23,8 @@ function App() {
                     <Link to="/contact">Contacto</Link>
                 </Navigation>
             </Drawer>
-            <Content>
-                <div className="page-content" />
+            <Content className="landing-grid">
+                <div className="" />
                 <Main />
             </Content>
         </Layout>

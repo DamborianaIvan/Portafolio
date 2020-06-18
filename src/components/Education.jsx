@@ -5,13 +5,16 @@ const Education = (props) => {
     
         return(
             <div className="container">
-                <Cell col={4}>
-                    <p>{props.startYear} - {props.endYear}</p>
-                </Cell>
-                <Cell col={8}>
-                    <h4 style={{marginTop: '8px'}}> {props.schoolName}</h4>
-                    <p>{props.schoolDescription}</p>
-                </Cell>
+                <div className="row">
+
+                    <div className="col-4 ">
+                        <p>{props.startYear} - {props.endYear}</p>
+                    </div>
+                    <div className="col-8">
+                        <h4 style={{marginTop: '8px'}}> {props.schoolName}</h4>
+                        <p>{props.schoolDescription}</p>
+                    </div>
+                </div>
             </div>
         )
     

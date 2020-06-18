@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Grid, Cell} from 'react-mdl';
+
 
 
 class Landing extends Component {
@@ -20,18 +20,18 @@ class Landing extends Component {
 
                             <p>HTML | CSS | BOOTSTRAP | JAVASCRIPT | REACT | PHP | MYSQL | API-REST </p>
 
-                            <div className="social-links">
+                            <div className="social-links text-center">
 
                                 {/*Linkedin */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://www.linkedin.com/in/ivangastondamboriana/" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                                 </a>
                                 {/*Github */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://github.com/DamborianaIvan" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"></i>
                                 </a>
                                 {/*Facebook */}
-                                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="http://facebook.com/damborianaivan" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-facebook-square" aria-hidden="true"></i>
                                 </a>
 

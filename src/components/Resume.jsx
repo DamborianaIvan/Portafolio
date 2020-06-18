@@ -8,9 +8,9 @@ import Skills from './Skills';
 class Resume extends Component {
     render(){
         return(
-            <div>
-                <Grid>
-                    <Cell col={4}>
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-md-4">
                         <div style={{textAlign:'center' }}>
                             <img
                                 src="https://dentalogica-practice.co.uk/wp-content/uploads/2017/05/avatar-male-300x300.png"
@@ -22,7 +22,13 @@ class Resume extends Component {
                         <h2 style={{paddingTop:'2em'}}>Damboriana Ivan Gaston</h2>
                         <h4 style={{color:'grey'}}>Front end Developer</h4>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
-                        <p>Nam bibendum lectus et ultricies efficitur. Etiam a dignissim urna. Maecenas at lacus nunc. Pellentesque pharetra consequat mauris quis condimentum.</p>
+                        <p>Nací el 18/09/1997 (22 años); actualmente soy estudiante, en busca
+de poder progresar, no solo de forma académica sino también laboral.
+Estoy cursando la Tecnicatura Universitaria en Desarrollo de
+Aplicaciones Informáticas en UNICEN sede de Tandil.
+Tengo facilidad en aprender, y tengo preferencia del trabajo en
+equipo, debido a que un grupo de personas pueden actuar de mejor
+manera que de forma individual</p>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
                         <h5>Adress</h5>
                         <p>Tandil - Buenos Aires - Argentina</p>
@@ -31,11 +37,11 @@ class Resume extends Component {
                         <h5>Email</h5>
                         <p>ivangastondamb@gmail.com</p>
                         <h5>Web</h5>
-                        <p>mywebsite.com</p>
+                        <p>https://portfolioivandambo.web.app/</p>
                         <hr style={{borderTop:'3px solid #833fb2', width:'50%'}}/>
-                    </Cell>
+                    </div>
 
-                    <Cell className="resume-right-col" col={8}>
+                    <div className="resume-right-col  col-md-8">
 
 
                         {/* EDUCACION*/}
@@ -58,13 +64,8 @@ class Resume extends Component {
                             schoolName="UNICEN"
                             schoolDescription="TUDAI(Tecnicatura Universitaria en Desarrollo de Aplicaciones Informaticas)"
                         />
-                        <Education 
-                            startYear={2019}
-                            endYear="Actually"
-                            schoolName="UNICEN"
-                            schoolDescription="Juajejijajuaje"
-                            caminoTomado="transa"
-                        />
+                        
+
                         <hr style={{borderTop:'3px solid #4682B4'}}/>
 
 
@@ -82,14 +83,9 @@ class Resume extends Component {
                             startYear={2019}
                             endYear="Actually"
                             jobName="Web Developer"
-                            jobDescription="Nam bibendum lectus et ultricies efficitur. Etiam a dignissim urna. Maecenas at lacus nunc. Pellentesque pharetra consequat mauris quis condimentum"
+                            jobDescription="Actualmente estoy trabajando en proyectos propios."
                         />
-                        <Experience 
-                            startYear={2019}
-                            endYear="Actually"
-                            jobName="Web Developer"
-                            jobDescription="Nam bibendum lectus et ultricies efficitur. Etiam a dignissim urna. Maecenas at lacus nunc. Pellentesque pharetra consequat mauris quis condimentum"
-                        />
+                        
                         <hr style={{borderTop:'3px solid #4682B4'}}/>
 
                         {/* Habilidades */}
@@ -111,6 +107,10 @@ class Resume extends Component {
                             progress={59}
                         />
                         <Skills 
+                            skill="API-REST"
+                            progress={60}
+                        />
+                        <Skills 
                             skill="PHP"
                             progress={45}
                         />
@@ -126,8 +126,8 @@ class Resume extends Component {
                             skill="MYSQL"
                             progress={50}
                         />
-                    </Cell>
-                </Grid>
+                    </div>
+                </div>
             </div>
         )
     }

@@ -1,8 +1,8 @@
-.titulo-banner{
-  font-family: 'Neucha', cursive;
+
+
+p {
+  font-family: 'Saira Condensed', sans-serif;
 }
-
-
 
 /**HEADER**/
 .header-color {
@@ -17,20 +17,17 @@
 
 /*LANDING-PAGE*/
 .landing-grid{
-  background-color: #2c3e50;
+  background-color: #3352ff;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3498db, #2c3e50);
+  background: -webkit-linear-gradient(to right, #1356bb, #2c3e50);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3498db, #2c3e50);
+  background: linear-gradient(to right, #1356bb, #2c3e50);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  
 }
-.avatar-img{
-  height: 250px;
-  padding-top:5em;
-}
+
 .banner-text{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.623);
   opacity: .8;
   width: 75%;
   margin: auto;
@@ -39,9 +36,9 @@
 }
 
 .banner-text h1{
-  font-size:66px;
-  font-weight: bold;
-  color:white;
+  font-size:80px;
+  color: wheat;
+  font-family: 'Caveat', cursive;
 }
 .banner-text hr{
   border-top: 5px dotted white;
@@ -53,12 +50,34 @@
   font-size: 20px;
   padding: 1em;
 }
+.btn-neon{
+  position: relative;
+  display:inline-block;
+  padding: 15px 20px;
+  transition: 1s;
+}
+.btn-neon:hover{
+  background: #2f25b1;
+  box-shadow: 0 0 10px #2f25b1, 0 0 40px #2f25b1, 0 0 80px #2f25b1;
+  
+}
+
+
+
+
+
+
 
 .social-links i{
   color: white;
   font-size: 5em;
   padding: 8px;
 } 
+.titulo-cafe{
+  font-family: 'Caveat', cursive;
+  font-size: 65px;
+  color: wheat;
+}
 
 /*Project seccion*/
 
@@ -77,10 +96,9 @@
   color: black;  
 }
 .contact-grid h2 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Caveat', cursive;
 }
 .contact-grid p{
-  font-family: 'Oxygen' sans-serif;
   font-weight:bold;
 
 }
@@ -99,6 +117,9 @@
   background: #27221f;
   color:white;
   padding:2em;
+}
+h2.title.resume{
+  font-family: 'Caveat', cursive;
 }
 
 

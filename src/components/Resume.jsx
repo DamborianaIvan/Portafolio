@@ -3,7 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
-
+import Avatar from '../avatar/Avatar';
 
 class Resume extends Component {
     render(){
@@ -12,11 +12,7 @@ class Resume extends Component {
                 <div className="row">
                     <div className="col-md-4">
                         <div style={{textAlign:'center' }}>
-                            <img
-                                src="https://dentalogica-practice.co.uk/wp-content/uploads/2017/05/avatar-male-300x300.png"
-                                alt="avatar"
-                                style={{height:'200px'}}
-                            />
+                            <Avatar />
                         </div>
 
                         <h2 style={{paddingTop:'2em'}}>Damboriana Ivan Gaston</h2>
@@ -45,7 +41,7 @@ manera que de forma individual</p>
 
 
                         {/* EDUCACION*/}
-                        <h2>Educacion</h2>
+                        <h2 className="title-resume">Educacion</h2>
                         <Education 
                             startYear={2009}
                             endYear={2015}
@@ -72,7 +68,7 @@ manera que de forma individual</p>
 
 
                         {/* EXPERIENCIA */}
-                        <h2>Experiencia</h2>
+                        <h2 className="title-resume">Experiencia</h2>
                         <Experience 
                             startYear={2018}
                             endYear="Actualmente"

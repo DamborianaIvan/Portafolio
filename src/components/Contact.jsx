@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import Avatar from '../avatar/Avatar';
 
 
 class Contact extends Component {
@@ -9,11 +10,7 @@ class Contact extends Component {
                 <div className="row contact-grid text-center">
                     <div className="col-md-6">
                         <h2>Ivan Gaston Damboriana</h2>
-                        <img 
-                            src="https://dentalogica-practice.co.uk/wp-content/uploads/2017/05/avatar-male-300x300.png" 
-                            alt="avatar"
-                            style={{height: '250px'}}
-                        />
+                        <Avatar />
                         <p style={{width:'75%', margin:'auto', paddingTop:'1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet in eros eu pretium. Nam molestie dolor in dolor imperdiet finibus. Etiam vitae metus id sapien interdum auctor. Pellentesque ut nisl mollis, gravida est sit amet, suscipit tellus. Nam in leo eu nibh laoreet mollis quis ac elit. </p>
                     </div>
                     <div className="col-md-6">
